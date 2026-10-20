@@ -1,0 +1,111 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  background: #f7f8fc;
+}
+
+.container {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  color: #333;
+}
+
+header {
+  background: #3f51b5;
+  color: white;
+  text-align: center;
+}
+
+input {
+  background: white;
+  border: 1px solid #ccc;
+  color: #333;
+  padding: 8px;
+}
+
+#search {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#search, .form {
+  margin: 15px 0;
+}
+
+.form {
+  display: flex;
+  gap: 8px;
+}
+
+#taskInput {
+  flex: 1;
+}
+
+button {
+  border: none;
+  padding: 8px 14px;
+  color: white;
+}
+
+#addBtn { background: #4caf50; }
+#addBtn:hover { background: #388e3c; }
+
+.edit {
+  background: #ffca28;
+  color: #333;
+}
+.edit:hover { background: #fbc02d; }
+
+.delete { background: #f44336; }
+.delete:hover { background: #d32f2f; }
+
+.section-title {
+  color: #3f51b5;
+}
+
+.day {
+  background: #e8f5e9;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.task {
+  display: flex;
+  gap: 8px;
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.task-text {
+  flex: 1;
+}
+
+.task-time {
+  color: #0a0000;
+}
+
+.empty {
+  background: #ffecb3;
+  color: #795548;
+  border: 1px solid #ffcc80;
+  padding: 15px;
+}
+
+.message {
+  display: flex;
+  justify-content: space-between;
+  background: #ffebee;
+  color: #c62828;
+  padding: 10px;
+}
+
+#closeMsg {
+  background: none;
+  color: inherit;
+}
+
+.hidden {
+  display: none;
+}
